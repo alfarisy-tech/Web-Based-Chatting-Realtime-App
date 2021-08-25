@@ -1,0 +1,444 @@
+html,
+body,
+div,
+span {
+
+}
+
+body {
+
+}
+
+.kotak {
+  background-color: #f7f7f7;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .06), 0 2px 5px 0 rgba(0, 0, 0, .2);
+  width: 100%;
+  position: fixed;
+}
+
+.kotak-kiri {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+
+}
+
+.kotak-kiri-sidebar {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: block;
+  top: 0;
+}
+
+.avatar-saya img {
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+
+  /*border:2px solid blue;*/
+  padding: 2px;
+}
+
+.avatar-saya-online{
+  border-radius: 100%;
+  border:2px solid green;
+}
+
+.avatar-saya-diluar{
+  border-radius: 100%;
+  border:2px solid #ffc107;
+}
+
+.avatar-saya-sibuk{
+  border-radius: 100%;
+  border:2px solid red;
+}
+
+.avatar-saya-offline{
+  border-radius: 100%;
+  border:2px solid #acadae;
+}
+
+
+
+
+
+
+.pencarian {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 70px;
+  width: 100%;
+}
+
+.pencarian-inner {
+  height: 100%;
+  width: 100%;
+  padding: 10px !important;
+  background-color: #fbfbfb;
+}
+
+.pencarian-inner input {
+ /*outline: none;*/
+ /*border: none;*/
+ box-shadow: none;
+ border-radius: 30px;
+ border-left: none;
+ height: 50px;
+}
+
+.pencarian-inner input:focus {
+ /*outline: none;*/
+ border: 1px solid #ced4da;
+ border-left: none;
+ box-shadow: none;
+}
+
+.pencarian .input-group-text{
+  border-right: none;
+  border-radius: 30px;
+  background: white;
+  padding-left: 15px;
+}
+
+.avatar-lawan img{
+ border-radius: 50%;
+ height: 50px;
+ width: 50px;
+}
+
+
+/*teman*/
+
+.teman {
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: #fff;
+  overflow-y: auto;
+  border: 1px solid #f7f7f7;
+  height: calc(100% - 145px);
+
+}
+
+.teman-list {
+  position: relative;
+  padding: 10px !important;
+  border-bottom: 1px solid #f7f7f7;
+  height: 72px;
+  margin: 0 !important;
+  cursor: pointer;
+  width: 100%;
+}
+
+.teman-list:hover {
+  background-color: #f2f2f2;
+}
+
+.teman-avatar {
+  text-align: center;
+  padding: 0 !important;
+}
+
+.avatar-icon img {
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+
+  /*border:2px solid blue;*/
+  padding: 2px;
+}
+
+.avatar-icon{
+  position: relative;
+}
+
+
+.avatar-icon-online{
+  border-radius: 100%;
+  border:2px solid green;
+}
+
+.avatar-icon-diluar{
+  border-radius: 100%;
+  border:2px solid #ffc107;
+}
+
+.avatar-icon-sibuk{
+  border-radius: 100%;
+  border:2px solid red;
+}
+
+.avatar-icon-offline{
+  border-radius: 100%;
+  border:2px solid #acadae;
+}
+
+
+.teman-main {
+  padding: 0 !important;
+}
+
+.teman-main .row {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.teman-data {
+  padding: 4px !important;
+}
+
+.nama-meta {
+  font-size: 100%;
+  padding: 1% !important;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #000;
+}
+
+.chat-meta{
+  /*white-space: nowrap;*/
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.teman-time {
+  padding: 10px !important;
+}
+
+.time-meta {
+  text-align: right;
+  font-size: 12px;
+  padding: 1% !important;
+  color: rgba(0, 0, 0, .4);
+  vertical-align: baseline;
+}
+/*end teman*/
+
+
+
+/*Conversation*/
+
+.conversation {
+ padding: 0 !important;
+ margin: 0 !important;
+ height: 100%;
+ overflow: hidden;
+ /*width: 100%;*/
+ background:#f4f8f9;
+ border-left: 1px solid rgba(0, 0, 0, .08);
+ /*overflow-y: auto;*/
+}
+
+
+.conversation .navbar{
+  border-bottom: 1px solid #e3e4e8;
+}
+
+
+.pesan {
+ padding: 25px !important;
+ margin: 0 !important;
+ background: #f4f8f9;
+ overflow-y: auto;
+ border: 1px solid #f7f7f7;
+ height: calc(100% - 125px);
+}
+
+.pesan .pesan-item{
+  /*border-right: 30%;*/
+  padding: 10px 15px;
+  font-size: 12pt;
+  color: #4e4e4e;
+  max-width: 80%;
+  display: block;
+}
+
+.pesan .pesan-item img{
+  width: 100%;
+}
+
+.pesan .icon-emoji{
+  font-size: 18pt;
+}
+
+.pesan .pesan-waktu{
+  text-align: right;
+  color: #8c8c8c;
+}
+
+.pesan .pesan-teman{
+  background: #ececec;
+  border-radius: 20px 20px 20px 0; 
+  float: left;
+}
+
+.pesan .pesan-saya{
+  background: #c1e8e2;
+  /*color: white;*/
+  border-radius: 20px 20px 0 20px;
+  float: right;
+}
+
+
+
+img.pesan-gambar{
+  width: 400px;
+  height: auto;
+}
+
+
+
+
+
+
+.teman-avatar .lingkaran{
+  position: absolute;
+  top: 3px;
+  right: 18px;
+  /*background: green;*/
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.status{
+  /*background: green;*/
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+
+.status-online{
+  background: green;
+}
+
+.status-diluar{
+  background: #ffc107;
+}
+
+.status-sibuk{
+  background: red;
+}
+
+.status-offline{
+  background: #acadae;
+}
+
+
+.pilih-status{
+  cursor: pointer;
+}
+
+
+.balas{
+  background: #fff;
+  border-top: 1px solid #f7f7f7;
+}
+
+.balas #balas-ketik{
+  /*height: 65px;*/
+  height: 40px;
+  padding: 8px 20px;
+  resize: none;
+  border-radius: 30px;
+  border: 1 solid #e3e4e8;
+  outline: none;
+  overflow-y: hidden;
+}
+
+.balas-kirim{
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+
+.upload-btn-main{
+  width: 100%;
+  overflow: hidden;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+.upload-btn {
+  border:none;
+  color: black;
+  font-size: 17px;
+  background: #fff;
+  width: 100%;
+}
+
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+
+/*summernote*/
+.note-popover .popover-content, .note-toolbar {
+  margin: 0;
+  padding: 0 0 5px 5px;
+  position: absolute !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  z-index: 999 !important;
+  top: 0 !important;
+}
+
+.note-editor.note-frame .note-editing-area, .note-editor.note-airframe .note-editing-area {
+  overflow: hidden;
+  padding-left: 5% !important;
+}
+
+.note-editor.note-frame .note-statusbar, .note-editor.note-airframe .note-statusbar {
+  background-color: #f5f5f5;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top: 1px solid #ddd;
+  display: none !important;
+}
+
+
+.note-image-popover{
+  display: none !important;
+}
+
+
+.dropdown-emoji .dropdown-menu{
+  padding-left: 10px;
+  width: 300px;
+}
+
+.dropdown-emoji .dropdown-menu .pilih-emot{
+  padding: 1px 4px;
+  font-size: 17pt;
+}
+
+.dropdown-emoji .dropdown-menu .pilih-emot:hover{
+  background: #ececec;
+  cursor: pointer;
+}
