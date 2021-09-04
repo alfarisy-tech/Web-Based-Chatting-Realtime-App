@@ -1,7 +1,10 @@
-# Aplikasi Chatting Realtime Berbasis Web 
+## Web-Based Chatting Realtime Application
+### Introducion
+**This App** -- is web-based chatting realtime application as whatshapp use ajax for realtime message
 
-Dibangun menggunakan teknologi :
-1. PHP Native
-2. Databe MySQL
-3. Ajax Query (Realtime Chat)
-4. Bootstrap
+### Build With Technology :
+1. PHP Native 
+2. Database MySQL
+3. Frontend as Whatshapp
+4. Ajax for Realtime message
+
